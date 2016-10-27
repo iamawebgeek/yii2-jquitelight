@@ -1,6 +1,19 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+build
+docs
+vendor
+
+# cache directories
+Thumbs.db
+*.DS_Store
+*.empty
+
+# IDE files
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# mac deployment helpers
+switch
+index
