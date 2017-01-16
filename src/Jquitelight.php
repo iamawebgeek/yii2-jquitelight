@@ -50,7 +50,7 @@ class Jquitelight extends Widget
 		if (empty($this->keywords)) {
 			throw new Exception('No keywords specified for highlighting');
 		}
-		Html::beginTag('div', $this->htmlOptions);
+		echo Html::beginTag('div', $this->htmlOptions);
 	}
 
 	/**
@@ -59,7 +59,7 @@ class Jquitelight extends Widget
 	public function run()
 	{
 		$this->registerAssets();
-		Html::endTag('div');
+		echo Html::endTag('div');
 	}
 
 	/**
