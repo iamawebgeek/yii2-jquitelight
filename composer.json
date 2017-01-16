@@ -1,6 +1,7 @@
 {
     "name": "iamwebdesigner/yii2-jquitelight",
     "description": "Yii2 Widget for jquitelight highlight plugin",
+    "prefer-stable": true,
     "license": "Apache 2.0",
     "authors": [
         {
