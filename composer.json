@@ -1,0 +1,26 @@
+{
+    "name": "iamwebdesigner/yii2-jquitelight",
+    "description": "Yii2 Widget for jquitelight highlight plugin",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "iamwebdesigner",
+            "email": "iamawebgeek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "bower-asset/jquitelight": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "iamwebdesigner\\jquitelight\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
